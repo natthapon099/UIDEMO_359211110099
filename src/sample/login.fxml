@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="600.0" style="-fx-background-color: #ffe97d;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-3.0" prefHeight="393.0" prefWidth="302.0" style="-fx-background-color: #ffb74d;">
+         <children>
+            <ImageView fitHeight="163.0" fitWidth="168.0" layoutX="65.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/2157de98b7214eb.jpg" />
+               </image></ImageView>
+            <Label layoutX="37.0" layoutY="228.0" text="School Management System" textFill="#0d0a01">
+               <font>
+                  <Font size="19.0" />
+               </font></Label>
+            <Label layoutX="46.0" layoutY="312.0" text="\@CoppyRight by Natthapon" textFill="#171705">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <JFXTextField focusColor="#2cdd15" layoutX="450.0" layoutY="100.0" prefHeight="29.0" prefWidth="117.0" promptText="Username">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextField>
+      <JFXPasswordField layoutX="441.0" layoutY="188.0" prefHeight="44.0" prefWidth="124.0" promptText="Password" unFocusColor="#111010">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </JFXPasswordField>
+      <ImageView fitHeight="57.0" fitWidth="53.0" layoutX="367.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/images.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="60.0" layoutX="360.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/button-41707_960_720.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="499.0" layoutY="255.0" style="-fx-background-color: #64ffda;" text="Login" textFill="#141413">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="359.0" layoutY="29.0" prefHeight="17.0" prefWidth="210.0" />
+      <Label layoutX="326.0" layoutY="338.0" prefHeight="28.0" prefWidth="257.0" text="DB Status :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
